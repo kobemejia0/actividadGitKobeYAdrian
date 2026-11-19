@@ -1,0 +1,133 @@
+/*
+Estilos para el login:
+*/
+.login{
+    /* 1. Ocupa el 100% del alto visible de la ventana del navegador */
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    background-color: #1e293b;
+}
+.login .login-contenido{
+    background-color: #f8fafc;
+    color: #1e293b;            
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 2em;
+    font-size: 2rem;
+    border-radius: 8px;
+}
+.login-contenido .formulario{
+    flex-direction: column;
+    display: flex;
+    gap: 0.5em;
+}
+.formulario input{
+    padding: 1.3em;
+    font-size: 0.6em;
+}
+.formulario button{
+    padding: 0.7em;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+/*
+Estilos para el index e index_admin
+*/
+
+.panel-admin, .panel-cliente{
+    margin: 0;
+    background-color: #f8fafc;
+    color: #1e293b;
+    padding: 2rem;
+}
+.panel-admin h1, .panel-cliente h1 {
+    color: #0f172a; /* El mismo azul oscuro que usaste en el login */
+    margin-bottom: 0.2em;
+    font-size: 2.1em;
+}
+
+.panel-admin h3, .panel-cliente h3 {
+    color: #475569;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+}
+.contenedor-admin, .contenedor-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Sombra ultra suave */
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+.contenedor-admin form{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.contenedor-admin table {
+    width: 80%;
+    border-collapse: collapse;
+}
+.contenedor-cliente table{
+    width: 70%;
+    border-collapse: collapse;
+}
+
+/* Cabecera con el azul marino corporativo */
+.contenedor-admin th, .contenedor-cliente th {
+    background-color: #0f172a; 
+    color: #ffffff;
+    padding: 0.8rem 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contenedor-admin td, .contenedor-cliente td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: center;
+}
+.panel-admin a, .panel-cliente a {
+    color: #112a61;
+    text-decoration: none;
+    font-weight: bold;
+}
+.panel-admin a:hover, .panel-cliente a:hover {
+    text-decoration: underline;
+}
+.contenedor-admin select {
+    padding: 0.4rem 0.6rem;
+    color: #1e293b;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.contenedor-admin button{
+    font-size: 1.3rem;
+    margin-top: 1.5em;
+    background-color: #1b2949;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    cursor:pointer;
+}
+/*
+Libro
+*/
+.contenedor-libro{
+    font-size: 1.5rem;
+}
