@@ -65,3 +65,6 @@ console.log(c)
 //Introducir valores desde el teclado --Practicar
 let x = prompt("Introduzca un número");
 console.log(x);
+
+//cambios
+console.log("Cambios realizados");
